@@ -1,2 +1,4 @@
 onlyBuiltDependencies:
   - esbuild
+overrides:
+  esbuild: 0.25.4 # FIX GHSA-67mh-4wv8-2f99
