@@ -1,5 +1,5 @@
 import * as ts from 'typescript'
-import type { TransformerExtras, PluginConfig } from 'ts-patch';
+import type { PluginConfig } from 'ts-patch';
 import prettyTime from 'pretty-time'
 
 import FancyReporter from './fancy'

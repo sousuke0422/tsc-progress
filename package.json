@@ -42,11 +42,10 @@
     "typescript": "*"
   },
   "dependencies": {
-    "ansi-escapes": "4.x",
     "ansis": "3.17.0",
     "figures": "3.x",
-    "markdown-table": "^3.0.2",
     "pretty-time": "^1.1.0",
+    "ts-patch": "3.3.0",
     "wrap-ansi": "7.x"
   },
   "devDependencies": {
@@ -73,7 +72,6 @@
     "tempy": "1.x",
     "ts-jest": "27.0.3",
     "ts-node": "10.9.2",
-    "ts-patch": "3.3.0",
     "tslib": "2.8.1",
     "typescript": "^5.8.3",
     "typescript-transform-extensions": "^1.0.1",
