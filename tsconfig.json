@@ -14,7 +14,6 @@
     "skipLibCheck": true,
     "resolveJsonModule": true,
     "noImplicitReturns": true,
-    "suppressImplicitAnyIndexErrors": true,
     "noUnusedLocals": true,
     "outDir": "lib",
     "baseUrl": "./",
@@ -23,10 +22,10 @@
       { "transform": "typescript-transform-paths" },
       // Transform paths in output .d.ts files (Include this line if you output declarations files)
       { "transform": "typescript-transform-paths", "afterDeclarations": true },
-      {
-        "transform": "typescript-transform-extensions",
-        "extensions": { ".ts": ".js" }
-      }
+      // {
+      //   "transform": "typescript-transform-extensions",
+      //   "extensions": { ".ts": ".js" }
+      // }
     ]
   },
   "include": ["src"]

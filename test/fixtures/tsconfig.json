@@ -14,7 +14,7 @@
     "skipLibCheck": true,
     "resolveJsonModule": true,
     "noImplicitReturns": true,
-    "suppressImplicitAnyIndexErrors": true,
+    // "suppressImplicitAnyIndexErrors": true,
     "noUnusedLocals": true,
     "outDir": "lib",
     "baseUrl": "./",

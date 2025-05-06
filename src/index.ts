@@ -1,11 +1,12 @@
 import * as ts from 'typescript'
+import type { TransformerExtras, PluginConfig } from 'ts-patch';
 import prettyTime from 'pretty-time'
 
 import FancyReporter from './fancy'
 
 const reporter = new FancyReporter()
 
-type Options = {
+type Options = PluginConfig & {
   title: string
   color: string
 }
