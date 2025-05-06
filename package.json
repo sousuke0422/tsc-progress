@@ -27,10 +27,10 @@
     "pretest": "pnpm run build && esrua ./test/fixtures.ts main",
     "test": "pnpm run pretest && cd ./test/fixtures && tsc",
     "watch:test": "pnpm run pretest && cd ./test/fixtures && tsc -w",
-    "ci:publish": "pnpm run build && pnpx changeset publish",
-    "ci:version": "pnpx changeset version",
-    "ci:snapshot": "pnpx changeset version --snapshot beta",
-    "ci:prerelease": "pnpm run build && pnpx changeset publish --tag beta",
+    "ci:publish": "pnpm run build && pnpm dlx changeset publish",
+    "ci:version": "pnpm dlx changeset version",
+    "ci:snapshot": "pnpm dlx changeset version --snapshot beta",
+    "ci:prerelease": "pnpm run build && pnpm dlx changeset publish --tag beta",
     "lint:fix": "eslint . --fix"
   },
   "lint-staged": {
