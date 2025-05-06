@@ -9,20 +9,13 @@
     "progressbar"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/JiangWeixian/tsc-progress#readme",
+  "homepage": "https://github.com/sousuke0422/tsc-progress#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JiangWeixian/tsc-progress.git"
+    "url": "git+https://github.com/sousuke0422/tsc-progress.git"
   },
-  "bugs": {
-    "url": "https://github.com/JiangWeixian/tsc-progress/issues",
-    "email": "jiangweixian1994@gmail.com"
-  },
-  "author": {
-    "name": "JW",
-    "email": "jiangweixian1994@gmail.com",
-    "url": "https://twitter.com/jiangweixian"
-  },
+  "bugs": "https://github.com/sousuke0422/tsc-progress/issues",
+  "author": "sousuke0422",
   "files": [
     "lib"
   ],
