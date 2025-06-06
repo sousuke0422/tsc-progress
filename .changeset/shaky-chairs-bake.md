@@ -2,4 +2,4 @@
 "typescriptbar": patch
 ---
 
-fix: configuration instructions (#2)
+fix: configuration instructions thanks @forivall (#2)
