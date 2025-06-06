@@ -1,6 +1,6 @@
 {
   "name": "typescriptbar",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "fork of tsc-progress. display progress bar in tsc build",
   "keywords": [
     "typescript",
@@ -16,7 +16,9 @@
   },
   "bugs": "https://github.com/sousuke0422/tsc-progress/issues",
   "author": "sousuke0422",
-  "files": ["lib"],
+  "files": [
+    "lib"
+  ],
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "scripts": {
@@ -32,7 +34,9 @@
     "lint:fix": "eslint . --fix"
   },
   "lint-staged": {
-    "**/**/*.{js,ts,tsx,vue,json}": ["eslint --fix"]
+    "**/**/*.{js,ts,tsx,vue,json}": [
+      "eslint --fix"
+    ]
   },
   "peerDependencies": {
     "typescript": "*"
