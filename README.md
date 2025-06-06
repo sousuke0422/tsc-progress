@@ -24,12 +24,15 @@ in `tsconfig.json`
 ```json
 {
   // ...
-  "plugins": [
-    {
-      "transform": "typescriptbar",
-      "title": "TSC"
-    }
-  ]
+  "compilerOptions": {
+    // ...
+    "plugins": [
+      {
+        "transform": "typescriptbar",
+        "title": "TSC"
+      }
+    ]
+  }
 }
 ```
 
